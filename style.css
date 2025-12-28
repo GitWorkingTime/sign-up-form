@@ -1,13 +1,71 @@
 @font-face {
     font-family: 'Norse';
-    src: url('Norse-Bold.woff2') format('woff2');
+    src: url('./font/Norse-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 body {
+    font-family: sans-serif;
     display: flex;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
+
+a {
+    color: white;
+}
+
+.sidebar {
+    position: relative;
+    height: 100vh;
+    width:30vw;
+    overflow: hidden;
+}
+
+.bng-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+    z-index: -1;
+}
+
+.splash-title {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 30%;
+}
+
+.odin-logo {
+    width: 15%;
+    height: 15%;
+    margin: 0;
+    padding: 0;
+}
+
+h1.splash-text {
+    font-family: 'Norse', 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 70pt;
+    padding: 0;
+    margin: 0;
+}
+
+.bibliography {
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    bottom: 5px;
+}
+
