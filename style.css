@@ -21,8 +21,9 @@ a {
 .sidebar {
     position: relative;
     height: 100vh;
-    width:30vw;
+    width:40vw;
     overflow: hidden;
+    flex-shrink: 0;
 }
 
 .bng-img {
@@ -69,3 +70,90 @@ h1.splash-text {
     bottom: 5px;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.description {
+    font-weight: 600;
+    font-size: 18pt;
+    margin: 0 300px 0 50px;
+}
+
+.form-container {
+    margin: 50px 0px;
+}
+
+.form-back {
+    margin: 0;
+    background-color: white;
+    padding: 10px 50px 30px;
+}
+
+.form-flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-flex-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 750px;
+}
+
+h1.title {
+    font-weight: 600;
+    font-size: 18pt;
+    margin: 0 0 20px;
+
+}
+
+input {
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px #E5E7EB solid ;
+}
+
+input:focus {
+    box-shadow: 3px 3px 5px;
+}
+
+input:invalid {
+    border: 2px red solid;
+}
+
+button {
+    all: unset;
+    height: 50px;
+    width: 250px;
+    flex-shrink: 0;
+    font-size: 15pt;
+    font-weight: bold;
+    margin: 10px 50px;
+    padding: 2px;
+    text-align: center;
+    background-color: #596D48;
+    color: white;
+    border-radius: 10px;
+}
+
+form {
+    margin: 0;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+p.log-in {
+    margin: 0 50px ;
+}

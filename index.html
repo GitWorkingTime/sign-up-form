@@ -19,55 +19,60 @@
     <div class="content">
         <p class="description">
             This is not a real online service! You know you need something like this
-            in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
+            in your life to help you realize your deepest dreams. <br> Sign up <em>now</em> to get started.
             <br> <br>
             You <em>know</em> you want to.
         </p>
         <div class="form-container">
-            <h3 class="title">Let's do this!</h1>
             <form>
-                <div class="form-item first-name">
-                    <label for="first_name">FIRST NAME</label>
-                    <br>
-                    <input type="text" id="first_name" placeholder="John">
+                <div class="form-flex-column">
+                    <div class="form-back">
+                        <h1 class="title">Let's do this!</h1>
+                        <div class="form-flex-row">
+                            <div class="form-item first-name">
+                                <label for="first_name">FIRST NAME</label>
+                                <br>
+                                <input type="text" id="first_name" placeholder="John">
+                            </div>
+            
+                            <div class="form-item last-name">
+                                <label for="last_name">LAST NAME</label>
+                                <br>
+                                <input type="text" id="last_name" placeholder="Doe">
+                            </div>
+            
+                            <div class="form-item user-email">
+                                <label for="user_email">EMAIL</label>
+                                <br>
+                                <input type="email" id="user_email" placeholder="example@gmail.com">
+                            </div>
+            
+                            <div class="form-item phone-number">
+                                <label for="phone_number">PHONE NUMBER</label>
+                                <br>
+                                <input type="tel" id="phone_number" placeholder="123-456-7890">
+                            </div>
+            
+                            <div class="form-item password">
+                                <label for="user_password">PASSWORD</label>
+                                <br>
+                                <input type="password" id="user_password" required>
+                                
+                            </div>
+            
+                            <div class="form-item confirm-password">                    
+                                <label for="user_confirm">CONFIRM PASSWORD</label>
+                                <br>
+                                <input type="password" id="user_confirm" required>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit">Create Account</button>
                 </div>
-
-                <div class="form-item last-name">
-                    <label for="last_name">LAST NAME</label>
-                    <br>
-                    <input type="text" id="last_name" placeholder="Doe">
-                </div>
-
-                <div class="form-item user-email">
-                    <label for="user_email">EMAIL</label>
-                    <br>
-                    <input type="email" id="user_email" placeholder="example@gmail.com">
-                </div>
-
-                <div class="form-item phone-number">
-                    <label for="phone_number">PHONE NUMBER</label>
-                    <br>
-                    <input type="tel" id="phone_number" placeholder="123-456-7890">
-                </div>
-
-                <div class="form-item password">
-                    <label for="user_password">PASSWORD</label>
-                    <br>
-                    <input type="password" id="user_password">
-                    
-                </div>
-
-                <div class="form-item confirm-password">                    
-                    <label for="user_confirm">CONFIRM PASSWORD</label>
-                    <br>
-                    <input type="password" id="user_confirm">
-                </div>
-
-                <button type="submit">Create Account</button>
             </form>
 
-            <p>
-                Already have an account? <span class="log-in">Log in</span>
+            <p class="log-in">
+                Already have an account? <span style="color: #596D48; font-weight: bold;">Log in</span>
             </p>
 
         </div>
